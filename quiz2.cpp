@@ -22,11 +22,3 @@ bool sumsTo(uint32_t x[], uint32_t n, uint32_t k, uint32_t v){
     }
     return 0;
 }
-
-// Testing stuff
-//printf("x[0], n, k, v: %d, %d, %d, %d \n", x[0], n, k, v);
-/*int main() {
-    uint32_t a[5] = {4, 5, 3, 2, 9};
-    assert(1 == sumsTo(a, 5, 2, 9));
-    return 0;
-}*/
